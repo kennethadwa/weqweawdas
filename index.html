@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Website</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oxanium:wght@600;700;800&family=Poppins:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header">
+
+    <div class="header-top">
+      <div class="container">
+
+        <div class="countdown-text">
+          Personal Website
+        </div>
+
+        <div class="social-wrapper">
+
+          <p class="social-title">Follow me on :</p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link" style="color: rgb(0, 102, 255);">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link" style="color: rgb(0, 255, 255);">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link" style="color: rgb(248, 62, 62);">
+                <ion-icon name="logo-pinterest"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link" style="color: rgb(48, 34, 245);">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="header-bottom skewBg" data-header>
+      <div class="container">
+
+        <a href="#" class="logo">Kennetics</a>
+
+        <nav class="navbar" data-navbar>
+          <ul class="navbar-list">
+
+            <li class="navbar-item">
+              <a href="#home" class="navbar-link skewBg" data-nav-link>Home</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#abtm" class="navbar-link skewBg" data-nav-link>About Me</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#port" class="navbar-link skewBg" data-nav-link>Portfolio</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#blog" class="navbar-link skewBg" data-nav-link>Blog</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#" class="navbar-link skewBg" data-nav-link>Contact</a>
+            </li>
+
+          </ul>
+        </nav>
+
+        <div class="header-actions">
+          <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+            <ion-icon name="menu-outline" class="menu"></ion-icon>
+            <ion-icon name="close-outline" class="close"></ion-icon>
+          </button>
+
+        </div>
+
+      </div>
+    </div>
+
+  </header>
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" id="home" aria-label="home"
+        style="background-image: url('./assets/images/hero-bg.jpg')">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">
+              Kenneth <span class="span">Lorenzo</span>
+            </h1>
+            <p class="hero-subtitle" style="color: white; margin-bottom: 20px;">Information Technology</p>
+
+            <p class="hero-text">
+              I am an IT student with a passion for programming and technology. I believe that as technology continues to evolve each
+              day, more opportunities awaits for me.
+            </p>
+
+            <button class="btn skewBg">Send me a message</button>
+
+          </div>
+
+          <figure class="hero-banner img-holder" style="--width: 700; --height: 700;">
+            <img src="./assets/images/myprofile.png" width="700" height="700" alt="hero banner" class="w-100">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+      <!-- 
+        - #HOME
+      -->
+
+      <section class="section brand" aria-label="brand">
+        <div class="container">
+
+          <ul class="has-scrollbar">
+
+            <li class="brand-item">
+              <img src="./assets/images/nulogo.png" width="90" height="90" loading="lazy" alt="brand logo">
+            </li>
+
+            <li class="brand-item">
+              <img src="./assets/images/nulogo.png" width="90" height="90" loading="lazy" alt="brand logo">
+            </li>
+
+            <li class="brand-item">
+              <img src="./assets/images/nulogo.png" width="90" height="90" loading="lazy" alt="brand logo">
+            </li>
+
+            <li class="brand-item">
+              <img src="./assets/images/nulogo.png" width="90" height="90" loading="lazy" alt="brand logo">
+            </li>
+
+            <li class="brand-item">
+              <img src="./assets/images/nulogo.png" width="90" height="90" loading="lazy" alt="brand logo">
+            </li>
+
+            <li class="brand-item">
+              <img src="./assets/images/nulogo.png" width="90" height="90" loading="lazy" alt="brand logo">
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+      <div class="section-wrapper">
+
+        <!-- 
+          - #HOBBIES
+        -->
+
+        <section class="section latest-game" aria-label="latest game">
+          <div class="container">
+
+            <p class="section-subtitle">Hobbies</p>
+
+            <h2 class="h2 section-title">
+              My <span class="span">Hobbies</span>
+            </h2>
+
+            <ul class="has-scrollbar">
+
+              <li class="scrollbar-item">
+                <div class="latest-game-card">
+
+                  <figure class="card-banner img-holder" style="--width: 400; --height: 470;">
+                    <img src="./assets/images/program.png" width="400" height="470" loading="lazy"
+                      alt="White Walker Daily" class="img-cover">
+                  </figure>
+
+                  <div class="card-content">
+
+                    <a href="#" class="card-badge skewBg">Programming</a>
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title">I Love <span class="span">Programming</span></a>
+                    </h3>
+
+                    <p class="card-price">
+                      1hr<span class="span">to</span> 3hrs
+                    </p>
+
+                  </div>
+
+                </div>
+              </li>
+
+              <li class="scrollbar-item">
+                <div class="latest-game-card">
+
+                  <figure class="card-banner img-holder" style="--width: 400; --height: 470;">
+                    <img src="./assets/images/exercise.png" width="400" height="470" loading="lazy"
+                      alt="Hunter Killer II" class="img-cover">
+                  </figure>
+
+                  <div class="card-content">
+
+                    <a href="#" class="card-badge skewBg">Workout</a>
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title">I <span class="span">Workout</span> Daily</a>
+                    </h3>
+
+                    <p class="card-price">
+                      30mins<span class="span">to</span> 1hr
+                    </p>
+
+                  </div>
+
+                </div>
+              </li>
+
+              <li class="scrollbar-item">
+                <div class="latest-game-card">
+
+                  <figure class="card-banner img-holder" style="--width: 400; --height: 470;">
+                    <img src="./assets/images/video-game.png" width="400" height="470" loading="lazy"
+                      alt="Cyberpunk Daily" class="img-cover">
+                  </figure>
+
+                  <div class="card-content">
+
+                    <a href="#" class="card-badge skewBg">Playing</a>
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title">I Love Playing <span class="span">Online Games</span></a>
+                    </h3>
+
+                    <p class="card-price">
+                      30mins<span class="span">to</span> 1hr
+                    </p>
+
+                  </div>
+
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+        </section>
+
+
+        <!-- 
+          - #ABOUT ME
+        -->
+
+        <section class="section live-match" id="abtm" aria-label="live match" style="display: flex; align-items: center; justify-content: center;">
+          <div class="container">
+
+            <br>
+
+            <h2 class="h2 section-title" style="margin-top: 30px;">
+              About <span class="span">Me</span>
+            </h2>
+
+            <figure class="live-match-banner img-holder" style="--width: 800; --height: 470;">
+
+              <img src="./assets/images/profile.jpg" width="800" height="470" loading="lazy"
+                alt="Live Match Video" class="img-cover">
+
+            </figure>
+
+
+                <div class="msg-container">
+
+                  <h1 style="margin-bottom: 30px; font-size: 24px; text-align: center;">Hello, My Name is <span style="color: var(--marigold);">Kenneth
+                      Lorenzo</span></h1>
+
+                  <p>I am Kenneth, an IT student who dreams of becoming a web developer and traveling to different places. But before I
+                  became an IT student, I just want to let you know that this wasn't my first choice because I really wanted to
+                  take a course related to seafaring since I love to travel. However, as I studied IT, I discovered that I actually enjoy
+                  it more because I find programming enjoyable and exciting, and learning about technology is thrilling for me.</p>
+                </div>
+
+          </div>
+        </section>
+
+      </div>
+
+
+      <!-- 
+        - #PORTFOLIO
+      -->
+
+      <section class="section shop" id="port" aria-label="shop"
+        style="background-image: url('./assets/images/shop-bg.jpg')">
+        <div class="container">
+
+          <h2 class="h2 section-title" style="margin-bottom: 150px;">
+            MY <span class="span">PORTFOLIO</span>
+          </h2>
+
+          <ul class="has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <figure class="card-banner img-holder" style="--width: 300; --height: 260;">
+                  <img src="./assets/images/qwhiz.png" width="300" height="260" loading="lazy"
+                    alt="Women Black T-Shirt" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <a href="#" class="card-badge skewBg">QuizWhizz</a>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Android Application</a>
+                  </h3>
+
+                  <div class="card-wrapper">
+                    <p class="card-price">2023</p>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <figure class="card-banner img-holder" style="--width: 300; --height: 260;">
+                  <img src="./assets/images/autono.png" width="300" height="260" loading="lazy"
+                    alt="Gears 5 Xbox Controller" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <a href="#" class="card-badge skewBg">Autono</a>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Website</a>
+                  </h3>
+
+                  <div class="card-wrapper">
+                    <p class="card-price">2023</p>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <figure class="card-banner img-holder" style="--width: 300; --height: 260;">
+                  <img src="./assets/images/charley.png" width="300" height="260" loading="lazy"
+                    alt="GeForce RTX 2070" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <a href="#" class="card-badge skewBg">Portfolio</a>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Website</a>
+                  </h3>
+
+                  <div class="card-wrapper">
+                    <p class="card-price">2024</p>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <figure class="card-banner img-holder" style="--width: 300; --height: 260;">
+                  <img src="./assets/images/game.png" width="300" height="260" loading="lazy"
+                    alt="Virtual Reality Smiled" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <a href="#" class="card-badge skewBg">Web Games</a>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Web Application</a>
+                  </h3>
+
+                  <div class="card-wrapper">
+                    <p class="card-price">2024</p>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+      <!-- 
+        - #BLOG
+      -->
+
+      <section class="section blog" id="blog" aria-label="blog">
+        <div class="container">
+
+          <h2 class="h2 section-title">
+            Latest News & <span class="span">Articles</span>
+          </h2>
+
+          <p class="section-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias sed similique obcaecati. Inventore, dicta autem? Sit delectus exercitationem sequi ipsa.
+          </p>
+
+          <ul class="blog-list">
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 400; --height: 290;">
+                  <img src="./assets/images/blog-1.jpg" width="400" height="290" loading="lazy"
+                    alt="Shooter Action Video" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="person-outline"></ion-icon>
+
+                      <a href="#" class="item-text">Admin</a>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="calendar-outline"></ion-icon>
+
+                      <time datetime="2022-09-19" class="item-text">September 19, 2023</time>
+                    </li>
+
+                  </ul>
+
+                  <h3>
+                    <a href="#" class="card-title">Shooter Action Video</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium nemo reprehenderit dolore iusto enim ipsam.
+                  </p>
+
+                  <a href="#" class="card-link">
+                    <span class="span">Read More</span>
+
+                    <ion-icon name="caret-forward"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 400; --height: 290;">
+                  <img src="./assets/images/blog-2.jpg" width="400" height="290" loading="lazy" alt="The Walking Dead"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="person-outline"></ion-icon>
+
+                      <a href="#" class="item-text">Admin</a>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="calendar-outline"></ion-icon>
+
+                      <time datetime="2022-09-19" class="item-text">September 19, 2023</time>
+                    </li>
+
+                  </ul>
+
+                  <h3>
+                    <a href="#" class="card-title">The Walking Dead</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse soluta iure nulla molestias nihil beatae?
+                  </p>
+
+                  <a href="#" class="card-link">
+                    <span class="span">Read More</span>
+
+                    <ion-icon name="caret-forward"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 400; --height: 290;">
+                  <img src="./assets/images/blog-3.jpg" width="400" height="290" loading="lazy"
+                    alt="Defense Of The Ancients" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="person-outline"></ion-icon>
+
+                      <a href="#" class="item-text">Admin</a>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="calendar-outline"></ion-icon>
+
+                      <time datetime="2022-09-19" class="item-text">September 19, 2023</time>
+                    </li>
+
+                  </ul>
+
+                  <h3>
+                    <a href="#" class="card-title">Defense Of The Ancients</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque explicabo amet dignissimos corrupti! Laborum, dolores.
+                  </p>
+
+                  <a href="#" class="card-link">
+                    <span class="span">Read More</span>
+
+                    <ion-icon name="caret-forward"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer" style="padding: 10px;">
+
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">Kennetics</a>
+
+          <p class="footer-text">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, nostrum?
+          </p>
+
+          <ul class="contact-list">
+
+            <li class="contact-item">
+              <div class="contact-icon">
+                <ion-icon name="location"></ion-icon>
+              </div>
+
+              <address class="item-text">
+                Address : San Nicholas, Lipa City
+              </address>
+            </li>
+
+            <li class="contact-item">
+              <div class="contact-icon">
+                <ion-icon name="headset"></ion-icon>
+              </div>
+
+              <a href="tel:+241245654235" class="item-text">Phone : 09123456789</a>
+            </li>
+
+            <li class="contact-item">
+              <div class="contact-icon">
+                <ion-icon name="mail-open"></ion-icon>
+              </div>
+
+              <a href="mailto:info@exemple.com" class="item-text">Email : kennethz@exemple.com</a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Products</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Graphics (26)</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Backgrounds (11)</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Fonts (9)</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Music (3)</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Photography (3)</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Need Help?</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Terms & Conditions</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Privacy Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Refund Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Affiliate</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Use Cases</a>
+          </li>
+
+        </ul>
+
+        <div class="footer-wrapper">
+
+          <div class="social-wrapper">
+
+            <p class="footer-list-title">Follow Us</p>
+
+            <ul class="social-list">
+
+              <li>
+                <a href="#" class="social-link" style="background-color: #3b5998">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link" style="background-color: #55acee">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link" style="background-color: #d71e18">
+                  <ion-icon name="logo-pinterest"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link" style="background-color: #1565c0">
+                  <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2024 personal portfolio. All Right Reserved by <a href="#" class="copyright-link">kenneth</a>
+        </p>
+
+        <img src="./assets/images/footer-bottom-img.png" width="340" height="21" loading="lazy" alt=""
+          class="footer-bottom-img">
+
+      </div>
+    </div>
+
+  </footer>
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="caret-up"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
